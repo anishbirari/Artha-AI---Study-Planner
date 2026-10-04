@@ -133,9 +133,6 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
 **Anish Birari**
 B.Tech AI/ML student
 
-- GitHub: [@your-username](https://github.com/anishbirari)
-- LinkedIn: [your-linkedin-profile](www.linkedin.com/in/anish-birari-a5848543a)
-
 ---
 
 <div align="center">
