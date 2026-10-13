@@ -10,7 +10,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-D4AF37?style=flat)
 ![No dependencies](https://img.shields.io/badge/dependencies-none-D4AF37?style=flat)
 
-[**Live demo**](https://your-username.github.io/artha-ai-study-planner/) · [Report a bug](../../issues) · [Request a feature](../../issues)
+[**Live demo**](https://anishbirari.github.io/Artha-AI---Study-Planner/) · [Report a bug](../../issues) · [Request a feature](../../issues)
 
 </div>
 
@@ -55,10 +55,10 @@ No installation is needed.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/artha-ai-study-planner.git
+git clone https://github.com/anishbirari/Artha-AI---Study-Planner.git
 
 # 2. Go into the folder
-cd artha-ai-study-planner
+cd Artha-AI---Study-Planner
 
 # 3. Open index.html in your browser
 ```
@@ -70,7 +70,7 @@ You can also download the project and double-click `index.html`. The install and
 1. Push the project to a GitHub repository.
 2. Go to **Settings > Pages**.
 3. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, then click **Save**.
-4. After a minute or two your site is live at `https://your-username.github.io/artha-ai-study-planner/`.
+4. After a minute or two your site is live at `https://anishbirari.github.io/Artha-AI---Study-Planner/`.
 
 ## Install on your phone
 
@@ -115,7 +115,7 @@ Everything is saved in your browser's local storage. Nothing is sent to a server
 ## Project structure
 
 ```text
-artha-ai-study-planner/
+Artha-AI---Study-Planner/
 ├── index.html              # the whole app (markup, styles and logic)
 ├── manifest.webmanifest    # app name, colours and icons for installing
 ├── sw.js                   # service worker for offline use
@@ -156,7 +156,7 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
 **Anish Birari**
 B.Tech AI/ML student
 
-- GitHub: [@your-username](https://github.com/your-username)
+- GitHub: [@anishbirari](https://github.com/anishbirari)
 - LinkedIn: [your-linkedin-profile](https://www.linkedin.com/in/your-linkedin-profile)
 
 ---
