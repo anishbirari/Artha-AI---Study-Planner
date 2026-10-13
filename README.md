@@ -21,6 +21,7 @@
 - [About](#about)
 - [Features](#features)
 - [Getting started](#getting-started)
+- [Install on your phone](#install-on-your-phone)
 - [How to use it](#how-to-use-it)
 - [How streaks work](#how-streaks-work)
 - [Your data](#your-data)
@@ -33,7 +34,7 @@
 
 ## About
 
-Artha AI - Study Planner is a personal planner I built as a first-year B.Tech AI/ML student to organise my own study routine. It is a single HTML file with no frameworks, no build step and no sign-up. Open it in a browser and start planning.
+Artha AI - Study Planner is a personal planner I built as a first-year B.Tech AI/ML student to organise my own study routine. It is a single HTML file with no frameworks, no build step and no sign-up. Open it in a browser, or install it on your phone, and start planning.
 
 ## Features
 
@@ -45,6 +46,7 @@ Artha AI - Study Planner is a personal planner I built as a first-year B.Tech AI
 | 🔥 | **Streaks and goals** | Set a daily study goal and keep your current and best streak going. |
 | 📈 | **Three progress charts** | A glowing 10-day momentum chart, a 7-day bar chart and a 30-day trend line, all in gold and black. |
 | 🎨 | **Custom subjects** | Add any subject you like and give it its own colour. |
+| 📱 | **Installable and offline** | Works as a phone app: add it to your home screen, open it full screen and use it without internet. |
 | ⚙️ | **Settings** | Change your daily goal and the timer lengths. |
 
 ## Getting started
@@ -61,7 +63,7 @@ cd artha-ai-study-planner
 # 3. Open index.html in your browser
 ```
 
-You can also just download `index.html` and double-click it.
+You can also download the project and double-click `index.html`. The install and offline features need the app to be served over `https`, so use the GitHub Pages link below for those.
 
 ### Host it free with GitHub Pages
 
@@ -69,6 +71,22 @@ You can also just download `index.html` and double-click it.
 2. Go to **Settings > Pages**.
 3. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, then click **Save**.
 4. After a minute or two your site is live at `https://your-username.github.io/artha-ai-study-planner/`.
+
+## Install on your phone
+
+Artha AI - Study Planner is a Progressive Web App (PWA). Open your GitHub Pages link on your phone, then:
+
+**Android (Chrome)**
+1. Tap the **⋮** menu.
+2. Tap **Install app** (or **Add to Home screen**).
+3. Open **Artha Study** from your home screen.
+
+**iPhone (Safari)**
+1. Tap the **Share** button.
+2. Tap **Add to Home Screen**, then **Add**.
+3. Open **Artha Study** from your home screen.
+
+The app then opens full screen with its own icon and keeps working without internet. Your data stays on that phone.
 
 ## How to use it
 
@@ -90,6 +108,7 @@ Everything is saved in your browser's local storage. Nothing is sent to a server
 ## Tech stack
 
 - HTML, CSS and vanilla JavaScript, with no frameworks or build tools
+- Progressive Web App: web manifest and a service worker for install and offline use
 - Charts drawn by hand as inline SVG
 - Fonts from Google Fonts: Bricolage Grotesque, DM Sans and JetBrains Mono
 
@@ -97,7 +116,10 @@ Everything is saved in your browser's local storage. Nothing is sent to a server
 
 ```text
 artha-ai-study-planner/
-├── index.html        # the whole app (markup, styles and logic)
+├── index.html              # the whole app (markup, styles and logic)
+├── manifest.webmanifest    # app name, colours and icons for installing
+├── sw.js                   # service worker for offline use
+├── icons/                  # app icons (192, 512, maskable, Apple touch)
 ├── LICENSE
 └── README.md
 ```
@@ -109,6 +131,7 @@ artha-ai-study-planner/
 - [x] Pomodoro timer with automatic logging
 - [x] Streaks, goals and progress charts
 - [x] Custom subjects
+- [x] Installable phone app with offline support
 - [ ] Exam countdowns
 - [ ] Notes for each subject
 - [ ] Monthly study heatmap
@@ -132,6 +155,9 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
 **Anish Birari**
 B.Tech AI/ML student
+
+- GitHub: [@your-username](https://github.com/your-username)
+- LinkedIn: [your-linkedin-profile](https://www.linkedin.com/in/your-linkedin-profile)
 
 ---
 
